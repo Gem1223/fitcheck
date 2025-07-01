@@ -1,0 +1,75 @@
+position: relative;
+-      background: url('images/pho.jpg') center center/cover no-repeat;
++      background: none;
+      height: 650px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+=======
+  .hero {
+      position: relative;
+      background: none;
+      height: 650px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 0 1rem;
+    }
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+  <section class="section-feature container" style="background-image: url('images/pho.jpg'); background-size: cover; background-position: center; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
++  <section class="section-feature container" style="background: none; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
++  </section>
+    <div class="row align-items-center">
+      <div class="col-md-6 order-md-2">
+        <img src="images/ima.jpg" alt="Workout" />
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h2 class="fw-bold">SET GOALS. LOG WORKOUTS. STAY ON TRACK.</h2>
+        <p>Easily track your Workouts, set Training Plans, and discover new Workout Routes to crush your goals.</p>
+        <a href="#" class="btn btn-primary px-4">GET STARTED</a>
+      </div>
+    </div>
+  </section>
+=======
+  <section class="section-feature container" style="background: none; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,0.1);">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-md-2">
+        <img src="images/ima.jpg" alt="Workout" />
+      </div>
+      <div class="col-md-6 order-md-1">
+        <h2 class="fw-bold">SET GOALS. LOG WORKOUTS. STAY ON TRACK.</h2>
+        <p>Easily track your Workouts, set Training Plans, and discover new Workout Routes to crush your goals.</p>
+        <a href="#" class="btn btn-primary px-4">GET STARTED</a>
+      </div>
+    </div>
+  </section>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+    <div class="carousel-caption d-none d-md-block">
+      <h5>Join a Challenge</h5>
+      <p>Hit milestones and PRs by taking on a new challenge every month.</p>
+    </div>
+=======
+    <div class="carousel-caption d-none d-md-block" style="background-image: url('images/pho.jpg'); background-size: cover; background-position: center; border-radius: 12px; padding: 1.5rem; color: white; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">
+      <h5>Join a Challenge</h5>
+      <p>Hit milestones and PRs by taking on a new challenge every month.</p>
+    </div>
+>>>>>>> REPLACE
+
+<<<<<<< SEARCH
+            <div class="mb-3 text-end">
+              <a href="forgot_password_request.html" class="text-decoration-none">Forgot Password?</a>
+            </div>
+=======
+            <div class="mb-3 text-end">
+              <a href="#" class="text-decoration-none" data-bs-toggle="modal" data-bs-target="#forgotPasswordModal" data-bs-dismiss="modal">Forgot Password?</a>
+            </div>
